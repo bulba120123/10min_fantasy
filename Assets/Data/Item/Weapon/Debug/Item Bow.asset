@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a33fceb2a7fd1d4ca5b7094334c39b6, type: 3}
+  m_Name: Item Bow
+  m_EditorClassIdentifier: 
+  itemType: 1
+  gearType: 0
+  itemName: "\uD65C"
+  itemDesc: "\uB370\uBBF8\uC9C0 {0}% \uC99D\uAC00\n\uD68C\uC804\uCCB4 {1}\uAC1C \uC99D\uCD94"
+  itemIcon: {fileID: 5566055537268623188, guid: 107666908ca05a84c90aab336feebd43, type: 3}
+  price: 2
+  levelGearStat: []
+  baseDamage: 3
+  baseCount: 1
+  damages:
+  - 0.5
+  - 1
+  - 1.5
+  - 2
+  - 3
+  counts: 0100000001000000010000000100000002000000
+  projectile: {fileID: 531836502588281801, guid: a8266352bed5ba643a8285671d2c64ad, type: 3}
+  weaponType: 5
+  hand: {fileID: 0}
+  enhancedWeapons:
+  - bulletType: 0
+    enchantName: "\uD654\uC0B4\uAC15\uD6541"
+    enchantImage: {fileID: -2042777720953751227, guid: 107666908ca05a84c90aab336feebd43, type: 3}
+    enchantDesc: "\uD654\uC0B4\uAC15\uD6541\u3147"
+    enhancementEffects:
+    - effect: 2
+      value: 2
+  - bulletType: 0
+    enchantName: "\uD654\uC0B4\uAC15\uD6542"
+    enchantImage: {fileID: 95377343862167065, guid: 107666908ca05a84c90aab336feebd43, type: 3}
+    enchantDesc: "\uD654\uC0B4\uAC15\uD6542\uC785"
+    enhancementEffects:
+    - effect: 3
+      value: 100
+    - effect: 0
+      value: 0.1
+  initStat:
+    damage: 3
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 1
+    penetration: 1
+    projectileCount: 1
+  levelStat:
+  - damage: 4
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 1
+    penetration: 1
+    projectileCount: 1
+  - damage: 5
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 1
+    penetration: 1
+    projectileCount: 2
+  - damage: 7
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 1
+    penetration: 2
+    projectileCount: 3
+  - damage: 8
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 1
+    penetration: 2
+    projectileCount: 4
+  - damage: 10
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 1
+    penetration: 3
+    projectileCount: 5

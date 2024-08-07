@@ -1,0 +1,797 @@
+fileFormatVersion: 2
+guid: b6d7cdb5203006346905cf078cc599e0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Dead
+    second: {fileID: 7400000, guid: c30c0f56ee2b5084ca8dc44e343c590a, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Run
+    second: {fileID: 7400000, guid: f8a3c8b29fb83c946af3fcc4fdfc7c4c, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: damaged_soldier
+    second: {fileID: 7400000, guid: 56d17628cdfea524b8a1f50b10691256, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: dead_soldier
+    second: {fileID: 7400000, guid: 1917d383056b1274e9061a5a542932eb, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: run_soldier
+    second: {fileID: 7400000, guid: c94b9535bbf7afe4aa9f3147b9c1f0cd, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638557213118811677
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: undead_soldier_Frame_0
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 204
+      width: 23
+      height: 31
+    spriteID: 64b6845a6a842c84d956c003492c68a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 204}
+  - name: undead_soldier_Frame_1
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 4
+      width: 23
+      height: 31
+    spriteID: 4fd7831bd3fd22240a3da0f8a14f05d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 4}
+  - name: undead_soldier_Frame_2
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 23
+      height: 32
+    spriteID: 317f1b6a025c73f4f812459c3646ca15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: undead_soldier_Frame_3
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 44
+      width: 23
+      height: 32
+    spriteID: bb4d727213f67094fa91061238b44560
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 44}
+  - name: undead_soldier_Frame_4
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 23
+      height: 32
+    spriteID: 559485b888eeb1d41ba8410507c92c8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
+  - name: undead_soldier_Frame_5
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 43
+      width: 23
+      height: 31
+    spriteID: 0bc2d419f0c964c49810f1a6e705b617
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 43}
+  - name: undead_soldier_Frame_6
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 82
+      width: 23
+      height: 31
+    spriteID: a9b0e2ced2695e7438a4d9a160f6cb3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 82}
+  - name: undead_soldier_Frame_7
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 124
+      width: 23
+      height: 32
+    spriteID: 7b05fde605cc7c842a20c350088872ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 124}
+  - name: undead_soldier_Frame_8
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 164
+      width: 23
+      height: 32
+    spriteID: 735374b1fc13ff840bd5adda4b978979
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 164}
+  - name: undead_soldier_Frame_9
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 121
+      width: 23
+      height: 31
+    spriteID: 83c816f3863493448a4fbf12e592b56e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 121}
+  - name: undead_soldier_Frame_10
+    originalName: 
+    pivot: {x: 0.43478262, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 160
+      width: 23
+      height: 31
+    spriteID: b3a9bcc4412991c43a28a7f1dfef1e4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 160}
+  - name: undead_soldier_Frame_11
+    originalName: 
+    pivot: {x: 0.45833334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 24
+      height: 29
+    spriteID: 75be70d12de945642b521e1ee6bedadd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 4}
+  - name: undead_soldier_Frame_12
+    originalName: 
+    pivot: {x: 0.48, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 4
+      width: 25
+      height: 23
+    spriteID: b26ab2505d2512944beaa63e5bd97d42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 4}
+  - name: undead_soldier_Frame_13
+    originalName: 
+    pivot: {x: 0.5185185, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 50
+      width: 27
+      height: 17
+    spriteID: d0a4ed0d413f152408b7b06c400b6c95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 50}
+  - name: undead_soldier_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 4
+      width: 32
+      height: 15
+    spriteID: be8b1075e2d349d46a66e802e5083e23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 4}
+  - name: undead_soldier_Frame_15
+    originalName: 
+    pivot: {x: 0.48387095, y: 0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 27
+      width: 31
+      height: 15
+    spriteID: 5c45e659fb35175428aab749e255ce3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 27}
+  - name: undead_soldier_Frame_16
+    originalName: 
+    pivot: {x: 0.48387095, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 75
+      width: 31
+      height: 12
+    spriteID: e8a068562d0453d499ab686a86bebde0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 75}
+  - name: undead_soldier_Frame_17
+    originalName: 
+    pivot: {x: 0.5555556, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 95
+      width: 18
+      height: 12
+    spriteID: 07ec07e4eced5ad4b87532622b99c459
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 95}
+  - name: undead_soldier_Frame_18
+    originalName: 
+    pivot: {x: 0.5625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 199
+      width: 16
+      height: 20
+    spriteID: 63be07f3d66a96d43b410918cec4fb7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 199}
+  - name: undead_soldier_Frame_19
+    originalName: 
+    pivot: {x: 0.5833334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 227
+      width: 12
+      height: 24
+    spriteID: d6c3945247551c04cb0188b358f34a2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 227}
+  - name: undead_soldier_Frame_20
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 131
+      y: 115
+      width: 5
+      height: 23
+    spriteID: 41d958db7e8cfc94a80d6ae084e25fa6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 131, y: 115}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 16503458
+    name: undead_soldier
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: undead_soldier_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 31
+      spriteId: 64b6845a6a842c84d956c003492c68a0
+    - name: undead_soldier_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 31
+      spriteId: 4fd7831bd3fd22240a3da0f8a14f05d1
+    - name: undead_soldier_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 32
+      spriteId: 317f1b6a025c73f4f812459c3646ca15
+    - name: undead_soldier_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 32
+      spriteId: bb4d727213f67094fa91061238b44560
+    - name: undead_soldier_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 32
+      spriteId: 559485b888eeb1d41ba8410507c92c8e
+    - name: undead_soldier_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 31
+      spriteId: 0bc2d419f0c964c49810f1a6e705b617
+    - name: undead_soldier_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 31
+      spriteId: a9b0e2ced2695e7438a4d9a160f6cb3a
+    - name: undead_soldier_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 32
+      spriteId: 7b05fde605cc7c842a20c350088872ae
+    - name: undead_soldier_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 32
+      spriteId: 735374b1fc13ff840bd5adda4b978979
+    - name: undead_soldier_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 31
+      spriteId: 83c816f3863493448a4fbf12e592b56e
+    - name: undead_soldier_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 6
+        y: 0
+        width: 23
+        height: 31
+      spriteId: b3a9bcc4412991c43a28a7f1dfef1e4e
+    - name: undead_soldier_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 5
+        y: 0
+        width: 24
+        height: 29
+      spriteId: 75be70d12de945642b521e1ee6bedadd
+    - name: undead_soldier_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 4
+        y: 0
+        width: 25
+        height: 23
+      spriteId: b26ab2505d2512944beaa63e5bd97d42
+    - name: undead_soldier_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 2
+        y: 0
+        width: 27
+        height: 17
+      spriteId: d0a4ed0d413f152408b7b06c400b6c95
+    - name: undead_soldier_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 32
+        height: 15
+      spriteId: be8b1075e2d349d46a66e802e5083e23
+    - name: undead_soldier_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 1
+        y: -2
+        width: 31
+        height: 15
+      spriteId: 5c45e659fb35175428aab749e255ce3f
+    - name: undead_soldier_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 0
+        width: 31
+        height: 12
+      spriteId: e8a068562d0453d499ab686a86bebde0
+    - name: undead_soldier_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 6
+        y: 0
+        width: 18
+        height: 12
+      spriteId: 07ec07e4eced5ad4b87532622b99c459
+    - name: undead_soldier_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 7
+        y: 0
+        width: 16
+        height: 20
+      spriteId: 63be07f3d66a96d43b410918cec4fb7a
+    - name: undead_soldier_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 9
+        y: 0
+        width: 12
+        height: 24
+      spriteId: d6c3945247551c04cb0188b358f34a2e
+    - name: undead_soldier_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 13
+        y: 0
+        width: 5
+        height: 23
+      spriteId: 41d958db7e8cfc94a80d6ae084e25fa6
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

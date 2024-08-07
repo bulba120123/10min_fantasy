@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4440704626647723816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11580107028959894}
+  - component: {fileID: 8944128324258980310}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &11580107028959894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440704626647723816}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8944128324258980310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440704626647723816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1208499370ade3448c52bbd6a7aa62e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: f0c0df54b3b78634ea8a73da3a93ba55, type: 2}
+    - {fileID: 11400000, guid: b23de506b316f624ea961bf7283cf209, type: 2}
+    - {fileID: 11400000, guid: 14b78d3d16bd6e04d9c74c0744950205, type: 2}
+    - {fileID: 11400000, guid: a24176e6242c3ea4287f8ed1a5e9b65b, type: 2}
+    - {fileID: 11400000, guid: ffce0fc195468694c90184d97fab2719, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: characterDatas
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[EnumTypes.CharacterType, Assembly-CSharp],[CharacterData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[EnumTypes.CharacterType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  achiveManager: {fileID: 0}
+  isLive: 0
+  gameTime: 0
+  maxGameTime: 60
+  isGameStart: 0
+  playerId: 0
+  health: 0
+  maxHealth: 100
+  level: 9
+  kill: 0
+  exp: 999
+  nextExp: 0a0000001e0000003c0000006400000096000000d20000001801000068010000c201000058020000
+  gold: 0
+  spawner: {fileID: 0}
+  player: {fileID: 0}
+  pool: {fileID: 0}
+  uiLevelUp: {fileID: 0}
+  uiTown: {fileID: 0}
+  uiResult: {fileID: 0}
+  enemyCleaner: {fileID: 0}
+  uiHealth: {fileID: 0}
+  townObj: {fileID: 0}
+  targetTownArrow: {fileID: 0}
+  uiJoy: {fileID: 0}
+  uiHUD: {fileID: 0}
+  uiEnchant: {fileID: 0}
+  characterData: {fileID: 0}
+  killMonsterEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  killBossEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  collectGoldEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  levelUpEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  defeatBossEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  killMonsterCountGoal: 10
+  collectGoldCountGoal: 6
+  defeatBossCountGoal: 1
+  levelUpCountGoal: 1

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a33fceb2a7fd1d4ca5b7094334c39b6, type: 3}
+  m_Name: Item Wooden Mask
+  m_EditorClassIdentifier: 
+  itemType: 2
+  gearType: 6
+  itemName: "\uB098\uBB34 \uAC00\uBA74"
+  itemDesc: "\uC801 \uB109\uBC31 {0} \uC99D\uAC00"
+  itemIcon: {fileID: 3171394946175693600, guid: a29622e4a7b1ea94e89fb6d37f1b0c83, type: 3}
+  price: 2
+  levelGearStat:
+  - value: 5
+  - value: 10
+  - value: 20
+  - value: 30
+  - value: 40
+  baseDamage: 0
+  baseCount: 0
+  damages: []
+  counts: 
+  projectile: {fileID: 0}
+  weaponType: 0
+  hand: {fileID: 0}
+  enhancedWeapons: []
+  initStat:
+    damage: 0
+    scale: 1
+    attackSpeed: 1
+    bulletCount: 0
+    projectileSpeed: 1
+    projectileCount: 1
+  levelStat: []

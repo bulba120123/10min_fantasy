@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c105ed25d515c46bf50fa81a4afe76, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  id: 0
+  characterType: 2
+  startWeapon: 3
+  passive:
+    effect: 7
+    value: 0.1
+  levelInterval: 10
+  name: "\uB9C8\uBC95\uC0AC"
+  description: "\uB9C8\uBC95\n10\uB808\uBCA8\uB9C8\uB2E4 \uCFE8\uD0C0\uC784 10% \u2193"
+  sprite: {fileID: -3074952686382435905, guid: 2c9c211e61bcf7e4dbfc528b3e0b4003, type: 3}
+  animator: {fileID: 9100000, guid: 8733c976d0b0acb41aeef38cb49c2aaa, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c105ed25d515c46bf50fa81a4afe76, type: 3}
+  m_Name: Priest
+  m_EditorClassIdentifier: 
+  id: 0
+  characterType: 3
+  startWeapon: 6
+  passive:
+    effect: 1
+    value: 0.2
+  levelInterval: 5
+  name: "\uC131\uC9C1\uC790"
+  description: "\uC131\uBC95\n5\uB808\uBCA8\uB9C8\uB2E4 \uACF5\uACA9\uBC94\uC704
+    0.2 \u2191"
+  sprite: {fileID: 1365056318685804390, guid: a8e6a7e8f1f3dc34e8e1f35087355cd7, type: 3}
+  animator: {fileID: 9100000, guid: 2429abcac7d79a6409e5e946b8a7c595, type: 2}

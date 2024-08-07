@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c105ed25d515c46bf50fa81a4afe76, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  id: 0
+  characterType: 1
+  startWeapon: 4
+  passive:
+    effect: 0
+    value: 0.1
+  levelInterval: 10
+  name: "\uC6A9\uC0AC"
+  description: "\uAC80\uACFC \uBC29\uD328\n10\uB808\uBCA8\uB9C8\uB2E4 \uB370\uBBF8\uC9C0
+    10% \u2191"
+  sprite: {fileID: 5864161723745490178, guid: 92d96dae3590c3a4c80deb18769db307, type: 3}
+  animator: {fileID: 9100000, guid: 50d486b9f882265408cd87724c04e19c, type: 2}

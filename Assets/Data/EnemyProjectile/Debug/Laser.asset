@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3f4c0bc2a161a542b8931d0ebe78c65, type: 3}
+  m_Name: Laser
+  m_EditorClassIdentifier: 
+  enemyType: 3
+  enemyProjectileType: 1
+  projectileName: "\uB808\uC774\uC800"
+  baseDamage: 1
+  baseCount: 0
+  speed: 0.1
+  coolTime: 5
+  projectile: {fileID: 8423817994945632879, guid: 27e2d004b33f530429dea8d37b099321, type: 3}

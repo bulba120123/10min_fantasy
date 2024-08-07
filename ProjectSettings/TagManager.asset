@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Area
+  - Enemy
+  - Bullet
+  - EnemyBullet
+  - Gold
+  - Town
+  - Boss
+  - BossBullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Boss
+  - Water
+  - UI
+  - Ghost
+  - Enemy
+  - Area
+  - Gold
+  - Player
+  - Town
+  - Elemental
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Boss
+    uniqueID: 743951825
+    locked: 0
+  - name: Weapon
+    uniqueID: 157334635
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Plant
+    uniqueID: 2754811701
+    locked: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c105ed25d515c46bf50fa81a4afe76, type: 3}
+  m_Name: Elementalist Release
+  m_EditorClassIdentifier: 
+  id: 0
+  characterType: 4
+  startWeapon: 2
+  passive:
+    effect: 4
+    value: 1
+  levelInterval: 5
+  name: "\uC815\uB839\uC0AC"
+  description: "\uC815\uB839\uC744 \uC2DC\uC791\uC544\uC774\uD15C\uC73C\uB85C \uD55C\uB2E4.
+    \uB808\uBCA8\uC5C5\uC744 5 \uD560\uB54C\uB9C8\uB2E4 \uD22C\uC0AC\uCCB4 \uC218
+    1\uC529 \uC99D\uAC00"
+  sprite: {fileID: 5802054688111582659, guid: fd63d048d298bb643bad4ec5513c0c3e, type: 3}
+  animator: {fileID: 9100000, guid: 015b29e7b6e0cd34ab06ea0733c3f8a0, type: 2}

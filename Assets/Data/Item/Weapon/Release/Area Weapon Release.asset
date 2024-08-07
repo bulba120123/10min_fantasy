@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a33fceb2a7fd1d4ca5b7094334c39b6, type: 3}
+  m_Name: Area Weapon Release
+  m_EditorClassIdentifier: 
+  itemType: 0
+  gearType: 0
+  itemName: "\uB9C8\uB298"
+  itemDesc: "\uB9C8\uB298"
+  itemIcon: {fileID: -4597606482414699175, guid: 107666908ca05a84c90aab336feebd43, type: 3}
+  price: 1
+  levelGearStat: []
+  baseDamage: 5
+  baseCount: 0
+  damages:
+  - 5
+  - 10
+  - 15
+  - 30
+  - 50
+  counts: 0000000000000000000000000000000000000000
+  projectile: {fileID: 7326442956278356108, guid: 37cb6148522f33244a7b002a73bbc2be, type: 3}
+  weaponType: 6
+  hand: {fileID: 0}
+  enhancedWeapons:
+  - bulletType: 6
+    enchantName: "\uB9C8\uB298\uAC15\uD6541"
+    enchantImage: {fileID: -8208057461790246090, guid: 107666908ca05a84c90aab336feebd43, type: 3}
+    enchantDesc: "\uB9C8\uB298\uAC15\uD6541\uC785\uB2C8\uB2E4."
+    enhancementEffects:
+    - effect: 5
+      value: 0.5
+  - bulletType: 6
+    enchantName: "\uB9C8\uB298\uAC15\uD6542"
+    enchantImage: {fileID: 4252274789385074692, guid: 107666908ca05a84c90aab336feebd43, type: 3}
+    enchantDesc: "\uB9C8\uB298\uAC15\uD6542\uC785\uB2C8\uB2E4"
+    enhancementEffects:
+    - effect: 0
+      value: 0.5
+  initStat:
+    damage: 5
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 0
+    penetration: 1
+    projectileCount: 0
+  levelStat:
+  - damage: 10
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 0
+    penetration: 1
+    projectileCount: 0
+  - damage: 15
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 0
+    penetration: 1
+    projectileCount: 0
+  - damage: 20
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 0
+    penetration: 1
+    projectileCount: 0
+  - damage: 25
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 0
+    penetration: 1
+    projectileCount: 0
+  - damage: 30
+    scale: 1
+    attackSpeed: 1
+    projectileSpeed: 0
+    penetration: 1
+    projectileCount: 0

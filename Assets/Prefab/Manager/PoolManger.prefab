@@ -1,0 +1,671 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6815736610130696310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3525776521725060280}
+  - component: {fileID: 201881071525573956}
+  m_Layer: 0
+  m_Name: PoolManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3525776521725060280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815736610130696310}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &201881071525573956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815736610130696310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f714d3dc6c0f14fb3944896d617805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2468102848518790510, guid: 7fdbe6336bf7cde4492e3dd524e6b996, type: 3}
+    - {fileID: 4835113533572987274, guid: 865747727adecc84b9a4996cf230f48d, type: 3}
+    - {fileID: 5952233082702784518, guid: b8daf2cc2b2f7e140975010adbb230ad, type: 3}
+    - {fileID: 1779895173479546599, guid: c608d6e477f2bbb45a3098c95971b791, type: 3}
+    - {fileID: 531836502588281801, guid: a8266352bed5ba643a8285671d2c64ad, type: 3}
+    - {fileID: 7069663040280326102, guid: 864081a044f09984b8c9f85a87c9a588, type: 3}
+    - {fileID: 8423817994945632879, guid: 104ccbf83be3cbe40ad91e8c12fe5b51, type: 3}
+    - {fileID: 8423817994945632879, guid: 27e2d004b33f530429dea8d37b099321, type: 3}
+    - {fileID: 9117746268323926190, guid: 431d0d7a820022e49a6254fa9239fb47, type: 3}
+    - {fileID: 5756247151966991969, guid: ec6857d0387ff0c4bb09555544937f68, type: 3}
+    - {fileID: 4634092493913223365, guid: b3399bc5810946e4e8ec4ea1a92881e3, type: 3}
+    - {fileID: 4634092493913223365, guid: fcc1986688a3cd6409c54509dfdc1c69, type: 3}
+    - {fileID: 5389996303591022479, guid: ab36591d968059745a63a806d965a74a, type: 3}
+    - {fileID: 5952233082702784518, guid: c0edfe869db1bdc41bf190656ec315fb, type: 3}
+    - {fileID: 5952233082702784518, guid: 2ced55cc5d189654182a53f018ccc920, type: 3}
+    - {fileID: 7944018496518242289, guid: a487c57f5a40aaa4e84840b0554ec9fa, type: 3}
+    - {fileID: 8415836621493714905, guid: 5b002c59641d807468006c4c50d8b559, type: 3}
+    - {fileID: 6132790652547802002, guid: 16768b910cf53924eb3d7ee0dd013cf6, type: 3}
+    - {fileID: 1847083924354238173, guid: eb8d7e6523ede204c9c3b93c08f537d6, type: 3}
+    - {fileID: 2868549190975385909, guid: 73f875de950c5ba46a02f0f744f28be7, type: 3}
+    - {fileID: 4924095956913731059, guid: 88928bd49f674ea4cb064060e959675c, type: 3}
+    - {fileID: 7120734246899285622, guid: 59f74ee137d2ce14fab77706c41a06e5, type: 3}
+    - {fileID: 7120734246899285622, guid: ff9f792f0c143c544af9ffb534cf04a9, type: 3}
+    - {fileID: 7944018496518242289, guid: ddb9f87f773ae6e4ca03d912eb0c1332, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: objectPools
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[EnumTypes.PoolType, Assembly-CSharp],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[EnumTypes.PoolType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 18
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: prefabs
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[EnumTypes.PoolType, Assembly-CSharp],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.EnumEqualityComparer`1[[EnumTypes.PoolType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bossPools
+      Entry: 7
+      Data: 4|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 5|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UNDEAD_DRAGON
+    - Name: $v
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UNDEAD_GENERAL
+    - Name: $v
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UNDEAD_KING
+    - Name: $v
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: bossProjectilePools
+      Entry: 7
+      Data: 6|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: DRAGON_BRESS
+    - Name: $v
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: DRAGON_FIRE
+    - Name: $v
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: GENERAL_ROTATE_SWORD
+    - Name: $v
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enemyProjectilePools
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ALLOW
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: LASER
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: weaponPools
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 9|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SHIELD_1
+    - Name: $v
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SWORD_2
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: AREA
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ELEMENTAL_2
+    - Name: $v
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FIREBALL_1
+    - Name: $v
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FIREBALL
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SHIELD
+    - Name: $v
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FIREBALL_2
+    - Name: $v
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SWORD_1
+    - Name: $v
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: SWORD
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ELEMENTAL_1
+    - Name: $v
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ELEMENTAL
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ARROW
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
